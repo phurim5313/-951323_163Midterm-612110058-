@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Score : Singleton<Score>
 {
     public Text scoreText;
-    public int score;
+    public static int score;
     void Start()
     {
         
@@ -15,19 +15,20 @@ public class Score : Singleton<Score>
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = score.ToString();
+        scoreText.text = "Score : "+score;
+        score = 0;
         
     }
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.name == "Ch08_nonPBR")
-        {
-            Destroy(gameObject);
-            Debug.Log("coli");
-            score += 1000;
+    //private void OnCollisionEnter(Collision other)
+    //{
+      //  if (other.gameObject.name == "Ch08_nonPBR")
+      //  {
+     //       Destroy(gameObject);
+      //      Debug.Log("coli");
+      //      score += 1000;
 
-        }
-    }
+       // }
+    //}
 
 
 }

@@ -13771,7 +13771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758678842}
   m_LocalRotation: {x: 0.32326594, y: 0, z: 0, w: 0.94630814}
-  m_LocalPosition: {x: 0.20738971, y: 18.136513, z: -113.14747}
+  m_LocalPosition: {x: 0.20738971, y: 46.43651, z: 87.95254}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224794612}
@@ -15690,6 +15690,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 883784087}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &878202095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878202093}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dfb7659b5ba6e4d95998cfdb7e9ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &878202096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15767,12 +15779,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7163a00039f3a0a48bfc59af8da0c809,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.5
+      value: 43.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7163a00039f3a0a48bfc59af8da0c809,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -111.8
+      value: 89.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7163a00039f3a0a48bfc59af8da0c809,
         type: 3}
@@ -26226,7 +26238,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh195166
+  m_Name: pb_Mesh290592
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27110,7 +27122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265628886}
   m_LocalRotation: {x: 0.32326594, y: 0, z: 0, w: 0.94630814}
-  m_LocalPosition: {x: 0.44051456, y: 18.21914, z: -113.74096}
+  m_LocalPosition: {x: 0.44051456, y: 46.51913, z: 87.35905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1957673222}
@@ -39678,6 +39690,7 @@ GameObject:
   - component: {fileID: 1979278979}
   - component: {fileID: 1979278978}
   - component: {fileID: 1979278982}
+  - component: {fileID: 1979278983}
   m_Layer: 0
   m_Name: Icosphere
   m_TagString: Untagged
@@ -39772,7 +39785,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 902700408}
-  score: 0
+--- !u!114 &1979278983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979278977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dfb7659b5ba6e4d95998cfdb7e9ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &2001944694
 Mesh:
   m_ObjectHideFlags: 0
@@ -42301,7 +42325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112612686}
   m_LocalRotation: {x: 0.32326594, y: 0, z: 0, w: 0.94630814}
-  m_LocalPosition: {x: 0.738753, y: 16.40636, z: -114.957}
+  m_LocalPosition: {x: 0.73874485, y: 44.706367, z: 86.143005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
