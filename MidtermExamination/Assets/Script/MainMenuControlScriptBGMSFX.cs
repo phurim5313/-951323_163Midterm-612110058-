@@ -48,7 +48,7 @@ public class MainMenuControlScriptBGMSFX : MonoBehaviour , IPointerEnterHandler
     }
     public void OptionsButtonClick(Button button)
     {
-        if (!SingletonGameApplicationManager.Instance.IsOptionMenuActive)
+        
         {
             
             SceneManager.LoadScene("SceneOptions", LoadSceneMode.Single);
